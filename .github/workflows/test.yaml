@@ -27,9 +27,6 @@ jobs:
         NO_PUSH: "true"
         DOCKER_REGISTRY: "quay.io"
 
-        # Uncomment and modify the following line with your image name.
-        # IMAGE_NAME: "<quay-username>/<repository-name>"
-
     # Lets us monitor disks getting full as images get bigger over time
     - name: Show how much disk space is left
       run: df -h
